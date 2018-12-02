@@ -13,5 +13,12 @@ namespace ConsoleApp26
         public int Price { get; set; }
         public Motor Motor { get; set; }
 
+
+        public void AboutACar ()
+        {
+            Console.WriteLine($"This is a {Color} {Brand} with a reliable motor capacity {Motor.Capacity}, motor size {Motor.Size} and it's price is {Price} $ ." ); 
+            
+        }
+
     }
 }
