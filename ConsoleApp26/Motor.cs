@@ -8,10 +8,9 @@ namespace ConsoleApp26
 {
     public class Motor
     {
+        public Name Name { get; set; }
         public double Size { get; set; }
-        public int Capacity { get; set; }
-
-
+        public int Capacity { get; set; }        
         
     }
 }

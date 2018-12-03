@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp26
 {
-    public enum  Brand
+    public enum Name
     {
-        BMW,
-        Audi,
-        Honda,
-        Mazda,
-        Marmon
+        motorV4,
+        motorV6,
+        motorV8,
+        HDImotor
+            
     }
 }
